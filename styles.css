@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    min-height: 65vh;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.container{
+    border: 4px goldenrod solid;
+    display: flex;
+    margin: 50% auto;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.fotoperfil{
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+}
+
+
+.info{
+    text-align: center;
+    width: 500px;
+    margin: 10px;
+    min-width: 300px;
+}
+h2, h4{
+    color: white;
+   margin: 5px; 
+}
+
+.img{
+    display: inline-block;
+    width: 40px;
+    margin: 10px;
+}
